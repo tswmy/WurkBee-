@@ -1,0 +1,134 @@
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 99999;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #2c3e50;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .login-form {
+    width:80%;
+}
+}
+@media(min-width: 50px) and (max-width: 320px) {
+  .login-page {
+    width:90%;
+  }
+  .login-page {
+    width:90%;
+  }
+  .active{
+    color:#fff !important;
+  }
+  .prof-img-width{
+    width:30% !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .login-page {
+    width:90%;
+  }
+  .login-page {
+    width:90%;
+  }
+  .active{
+    color:#fff !important;
+  }
+  .prof-img-width{
+    width:30% !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 540px) {
+  .login-page {
+    width:90%;
+  }
+  .active{
+    color:#fff !important;
+  }
+  .prof-img-width{
+    width:30% !important;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 767px) {
+  .login-page {
+    width:90%;
+  }
+  .active{
+    color:#fff !important;
+  }
+  .prof-img-width{
+    width:30% !important;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: landscape) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login-page {
+    width:60%;
+  }
+  .active{
+    color:#fff !important;
+  }
+  .prof-img-width{
+    width:30% !important;
+  }
+  .card-form {
+    background-color:#fff;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+     margin: 5% auto;
+     padding: 10px;
+   color:white;
+   }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+}
+
+@media (min-width: 1281px) and (max-width: 1429px) {
+  
+}
+
+@media (min-width: 1430px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) and (max-width:1930px) {}
+
+@media (min-width: 1931px) and (max-width: 3280px) {}
+
+@media (min-width: 3281px) and (max-width: 5550px) {}

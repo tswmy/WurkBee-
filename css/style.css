@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: transparent;
+    color: #272727;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+nav{
+  background-color:#EE6D00;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color:#fff;
+}
+a.active,a:hover{
+  background-color:#072F39;
+  transition: .5s;
+  color:#fff;
+  text-decoration:none;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.bgimage {
+  background-image: url('../images/bg1.jpeg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height:100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.logo-head h1{
+  text-align:center;
+  font-weight:bold;
+  color:#EE6D00;
+}
+.login-page {
+  width:30%;
+  margin: 0 auto;
+  padding:0px 0px;
+  color:white;
+ background-color:#fff;
+ border-radius:10px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login-page h1{
+  color:#000;
+  }
+/* Login section */
+.login-form {
+ background-color:#fff;
+ border-radius:10px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width:35%;
+  margin: 5% auto;
+  padding: 10px;
+color:white;
+}
+.login-form p{
+  color:#000;
+}
+.login-form h4{
+  color:#000;
+  font-size:2em;
+  text-transform:capitalize;
+  font-weight:bold;
+}
+.login-form h6{
+  color:#000;
+  font-size:1.5em;
+  text-transform:capitalize;
+  font-weight:bold;
+}
+.heading{
+  color:#000;
+  font-size:1.5em;
+  text-transform:capitalize;
+  font-weight:bold;
+}
+.card-form {
+ background-color:#fff;
+ border-radius:10px;
+ box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+  width:100%;
+  margin: 5% auto;
+  padding: 10px;
+color:white;
+}
+.card-form a:hover {
+  color:#0000ff;
+}
+.btn{
+  outline:none !important;
+  border:none !important;
+}
+.btn-login{
+  background-color:#00669A;
+  width:100%;
+  font-size:1.3em;
+  
+}
+.btn-readOnly{
+  opacity:0.5;
+  pointer-events:none;
+}
+.btn-login:hover,.btn-login:active,.btn-login:focus{
+  color:#fff;
+}
+.errormsgreg{
+ color:#ff0000;
+ text-align:center;
+ margin-top:2px;
+ display:none;
+}
